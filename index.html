@@ -8,30 +8,29 @@
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/all.min.css">
   </head>
 
   <body>
 
     <div class="todo_container">
+      <h3 class="mb-2 fw-bolder">Todo App</h3>
+
       <div class="d-flex gap-2">
         <input type="text" name="todoName" class="form-control shadow-none bg-light rounded-0" id="todoName" placeholder="Task Name">
 
-        <button class="btn btn-primary p-2 ps-3 pe-3 rounded-0" id="addTodoButton">
+        <button class="btn shadow-none btn-primary p-2 ps-3 pe-3 rounded-0" id="addTodoButton">
           Add
         </button>
       </div>
 
       <div class="mt-3">
         <div class="text-muted border-bottom pb-2">
-          Added Things to do.
+          Added Task.
         </div>
 
         <div class="mt-3">
-          <div class="text-muted d-flex justify-content-center align-items-center text-center" style="height: 200px;">
-            <div>
-              <h1 class="fw-bolder">0</h1>
-              <h5>Todo added</h5>
-            </div>
+          <div id="addedTodoContainer">
           </div>
         </div>
       </div>
@@ -39,5 +38,6 @@
 
     <script src="Scripts/app.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/all.min.js"></script>
   </body>
 </html>
