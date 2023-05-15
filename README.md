@@ -35,10 +35,6 @@ You can customize the Todo app by modifying the following files:
 
 Contributions to the Todo app are welcome! If you find any issues or have ideas for improvements, please submit them as GitHub issues or create a pull request.
 
-## License
-
-The Todo app is open-source and released under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 The Todo app was created using basic JavaScript and is inspired by various Todo apps available online.
